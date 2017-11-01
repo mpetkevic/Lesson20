@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.video-container {
+
+    .content {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 1920px;
+        height: 1080px;
+        text-align: center;
+        color: white;
+        z-index: 2;
+
+        .descr {
+            padding-top: 150px;
+            text-transform: uppercase;
+            display: block;
+        }
+
+        h1 {
+            padding: 30px 0;
+            font-size: 36px;
+            font-weight: 400;
+        }
+
+        .descr-2 {
+            font-size: 24px;
+        }
+
+        img {
+            display: block;
+            margin: 50px auto;
+        }
+
+        input {
+            border: none;
+            padding: 10px 25px;
+            outline: none;
+            margin-bottom: 100px; 
+        }
+
+        button {
+            background-color: #1abc9c;
+            padding: 10px 25px;
+            border: none;
+            outline: none;
+            color: white;
+        }
+
+        .foot {
+            display: block;
+            line-height: 150%;
+
+            .green {
+                color: #1abc9c;
+            }
+        }
+    }
+}
+
+.nav-sec {
+    width: 1920px;
+    height: 65px;
+    box-shadow: 0px 18px 25px -1px rgba(0,0,0,0.25); 
+
+    .container {
+        .logo-nav {
+            float: left;
+
+            img {
+                margin: 15px;
+                float: left;
+            }
+
+            ul {
+                display: inline;
+                float: right;
+
+                li {
+                    display: inline-block;
+                    line-height: 65px;
+                    margin: 0 10px;
+
+                    a {
+                        text-decoration: none;
+                        text-transform: uppercase;
+                        color: gray;
+
+                        &:hover {
+                            color: #1abc9c;
+                        }
+                    }
+                }
+            }
+        }
+
+        .social {
+            float: right;
+            line-height: 65px;
+
+            a {
+                img {
+                    margin: 15px 10px 0;
+                }
+            }
+
+            
+        }
+    }
+}
+
+.main {
+    background-color: #ffffff;
+    width: 1920px;
+    height: 100vh;
+
+    img {
+        display: block;
+        margin: 150px auto 30px; 
+    }
+
+    span {
+        display: block;
+        text-align: center;
+    }
+
+    h1{
+        text-align: center;
+        padding: 20px 0;
+        .green {
+            display: inline;
+            color: #1abc9c;
+            
+        }
+    }
+
+    .container {
+        .row {
+            .col {
+
+                h3 {
+                    text-align: center;
+                    padding: 20px 0 10px;
+                }
+
+                p {
+                    text-align: center;
+                }
+            }
+        }
+    }
+}
+
